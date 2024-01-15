@@ -24,7 +24,6 @@ Langkah selanjutnya adalah membuat form pencarian.
 </form>
 ```
 
-![img](ss/ss4.png)
 Sisipkan kode tersebut pada file index.php (daftar barang), s
 ```
 include_once 'koneksi.php';
@@ -62,7 +61,6 @@ $result = mysqli_query($conn, $sql);
 
 ?>
 ```
-![img](ss/ss1.png)
 
 ## Membuat Pagination
 
@@ -134,7 +132,6 @@ $result = mysqli_query($conn, $sql);
 ?>
 ```
 
-![img](ss/ss1.png)
 
 Selanjutnya tambahkan code berikut setelah tabel data:
 
@@ -166,7 +163,6 @@ Selanjutnya tambahkan code berikut setelah tabel data:
 <?php include_once('template/footer.php'); ?>
 ```
 
-![img](ss/ss2.png)
 
 ## Kemudian tambahkan style CSS untuk pagination nya:
 ```
@@ -197,5 +193,3 @@ ul.pagination li a:hover:not(.active) {
     background-color: #ddd;
 }
 ```
-
-![img](ss/ss3.png)
